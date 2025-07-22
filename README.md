@@ -24,70 +24,54 @@ solace-fullstack-task/
 
 ## Setup & Run
 
-1-Backend
+###
 
-```bash
+1. Backend
+
 cd backend
 npm install
-npm run start:dev      # runs on http://localhost:3000/graphql
+npm run start:dev # runs on http://localhost:3000/graphql
 
 GraphQL Playground available at:
 http://localhost:3000/graphql
 
-
-2-Frontend
+2. Frontend
 
 In a separate terminal:
 
 cd frontend
 npm install
-npm start
+npm start # runs on http://localhost:3001
 
-App runs at:
-http://localhost:3001
-
-3-Features
-Department Card View
-
-Displays department details fetched via GraphQL.
+3. Features
+   Department Card View
+   Displays department details fetched via GraphQL.
 
 Edit Department
-
-Opens a dialog with prefilled fields.
-
-Saves changes via updateDepartment mutation.
+Opens a dialog with prefilled fields and saves changes via the updateDepartment mutation.
 
 View Employee Details
-
 Opens a dialog showing full employee info.
 
 Delete Employee
-
-Shows a confirmation dialog.
-
-Removes employee via deleteEmployee mutation.
+Shows a confirmation dialog and removes the employee via the deleteEmployee mutation.
 
 Responsive & Pixel‑Perfect
+Layout adapts to screen sizes and matches the provided Figma design.
 
-Layout adapts to screen sizes.
-
-Matches the provided Figma design.
-
-
-4-Architecture & Performance
-NestJS + GraphQL for a type‑safe API.
+4. Architecture & Performance
+   NestJS + GraphQL for a type‑safe API.
 
 React + TypeScript + MUI for a modern, maintainable frontend.
 
 React Hook Form for performant, scalable forms.
 
-graphql-request for lightweight GraphQL client.
+graphql-request for a lightweight GraphQL client.
 
 CSS Grid / MUI Box for responsive layouts.
 
-
-5-Next Steps
-Add unit and integration tests.
+5. Next Steps
+   Add unit and integration tests.
 
 Integrate a real database (e.g. PostgreSQL).
 
@@ -97,11 +81,6 @@ Add error‑handling UI (toasts/snackbars).
 
 Introduce pagination or lazy‑loading for large employee lists.
 
-
-
 License
 This project is provided for technical evaluation only.
 No license. All rights reserved by Solace.
-
-
-```
