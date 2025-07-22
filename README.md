@@ -24,7 +24,7 @@ solace-fullstack-task/
 
 ## Setup & Run
 
-### 1-Backend
+1-Backend
 
 ```bash
 cd backend
